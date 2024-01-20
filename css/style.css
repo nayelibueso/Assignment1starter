@@ -1,5 +1,6 @@
 body {
   font-family: Arial;
+  background-color: #4915F8;
 }
 
 .header {
@@ -8,34 +9,68 @@ body {
   align-items: center;
 }
 
+.signin {
+  font-size: 25px
+}
+
 .section1 {
-  align-items: center;
+  display: flex;
   flex-direction: row;
-  align-items: center
+  align-items: center; 
 }
 
-.section2 {
-  align-items: center;
+.container {
+  display: flex;
 }
 
-.section3 {
-  align-items: center;
+.left-div, .right-div {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
 }
+
 .line-1 {
-  font-size: 30px;
+  font-size: 50px;
   color: white;
+  margin-bottom: 40px;
 }
 
 .line-2 {
-  font-size: 40px;
+  font-size: 75px;
   font-weight: bold;
   color: white;
   padding-bottom: 0px;
 }
 
 .line-3 {
-  font-size: 15px;
+  font-size: 30px;
   color: #d3d3d3;
+}
+
+.line-4 {
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 980px;
+}
+
+.line-5 {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.line-6 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.line-7 {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 .images {
@@ -46,7 +81,7 @@ input[type='button'] {
   background-color: #f57113;
   color: white;
   font-weight: bold;
-  font-size: medium;
+  font-size: 25px;
   border: 0px;
   border-radius: 15px;
 }
